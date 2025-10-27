@@ -1,6 +1,6 @@
 ## 使い方
 ```yaml
-uses: t-fujisaka-d1g/google-chat-notify
+uses: daiichi-g/google-chat-notify
 with:
   webhook-url: <Webhook URL>
   message: <送信するメッセージ>
@@ -8,7 +8,7 @@ with:
 
 ### ワークフローリンクなどの前にテキストを配置する
 ```yaml
-uses: t-fujisaka-d1g/google-chat-notify
+uses: daiichi-g/google-chat-notify
 with:
   webhook-url: <Webhook URL>
   message: <送信するメッセージ>
@@ -17,7 +17,7 @@ with:
 
 ### スレッドに送信
 ```yaml
-uses: t-fujisaka-d1g/google-chat-notify
+uses: daiichi-g/google-chat-notify
 with:
   webhook-url: <Webhook URL>
   message: <送信するメッセージ>
