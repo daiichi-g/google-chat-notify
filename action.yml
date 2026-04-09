@@ -15,5 +15,5 @@ inputs:
     required: false
     description: '送信先のスレッド指定(topic-id)'
 runs:
-  using: 'node16'
+  using: 'node24'
   main: 'dist/index.js'
