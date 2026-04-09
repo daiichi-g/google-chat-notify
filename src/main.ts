@@ -27,12 +27,12 @@ async function run(): Promise<void> {
     const icon: string = core.getInput('icon')
     const topicId: string = core.getInput('topic-id')
 
-    const texts:string[] =[]
-    if(icon.length > 0) {
+    const texts: string[] = []
+    if (icon.length > 0) {
       texts.push(icon)
     }
     texts.push(...createLinks(github.context))
-    if(message.length > 0) {
+    if (message.length > 0) {
       texts.push(message)
     }
 

@@ -37,7 +37,7 @@ export const MessageReplyOptions = {
   OrFail: 'REPLY_MESSAGE_OR_FAIL'
 } as const
 export type MessageReplyOption =
-  typeof MessageReplyOptions[keyof typeof MessageReplyOptions]
+  (typeof MessageReplyOptions)[keyof typeof MessageReplyOptions]
 
 // eslint-disable-next-line @typescript-eslint/no-extraneous-class
 export class Chat {
